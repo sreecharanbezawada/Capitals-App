@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Roboto';
+  background-color: #93c5fd;
+}
+
+.inner-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  width: 400px;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.main-heading {
+  color: #1e293b;
+  font-size: 25px;
+}
+
+.drop-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.select-holder {
+  width: 100px;
+  height: 40px;
+  border-color: #cbd2d9;
+  color: #1e293b;
+  font-weight: bold;
+  outline: none;
+}
+option {
+  color: #323f4b;
+}
+
+.para {
+  color: #323f4b;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.result {
+  color: #1e293b;
+  font-size: 20px;
+  font-weight: bold;
+}
